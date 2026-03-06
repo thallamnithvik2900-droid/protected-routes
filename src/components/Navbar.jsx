@@ -4,6 +4,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <nav>
+      <Link to="/dashboard">Dashborad</Link>    
       <Link to="/">Home</Link>
       <Link to="/men">Men</Link>
       <Link to="/women">Women</Link>
@@ -11,6 +12,8 @@ const Navbar = () => {
       <Link to="/bag">Bag</Link>
       <Link to="/wishlist">Wishlist</Link>
       <Link to="/login">Login</Link>    
+      
+
     </nav>
   );
 };
